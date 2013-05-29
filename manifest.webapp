@@ -1,0 +1,21 @@
+{
+  "name": "WebActivities",
+  "description": "Firefox OS Web Activities Examples",
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+  "developer": {
+    "name": "Francisco Jordano",
+    "url": "http://github.com/arcturus"
+  },
+  "default_locale": "en",
+  "activities": {
+    "share": {
+      "filters": {
+        "type": "image/*"
+      },
+      "disposition": "inline",
+      "returnValue": false,
+      "href": "/index.html"
+    }
+  }
+}
